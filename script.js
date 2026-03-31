@@ -80,7 +80,7 @@ function handleNoClick() {
     
     noButton.textContent = messages[messageIndex];
     
-    if (messageIndex >= 3) {
+    if (messageIndex >= 10) {
         gifContainer.style.width = '100%';
         gifContainer.style.height = 'auto';
         gif.src = sadGifs[0];
